@@ -1,0 +1,64 @@
+/* Estilos específicos para la sidebar */
+.sidebar {
+  background-color: #2B3664;
+  width: 28vh;
+  height: 100vh;
+  position: absolute;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3vh;
+  transition: all 0.1s;
+}
+
+.btn-burguer{
+  background: none;
+  border: none;
+  color: #fff;
+  padding: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  width: 8vh;
+}
+
+ul > li{
+  list-style: none;
+  text-decoration: none;
+  padding:0;
+  display: flex;
+  align-items: center; /* Alinea ícono y texto horizontalmente */
+  padding: 12px 16px;
+  gap: 12px;
+  width: 100%;
+}
+
+ul > li > a {
+  text-decoration: none;
+  color: #fff;
+  width: 100em;
+  display: flex;
+  align-items: center;
+  gap: 2vh;
+}
+
+.nav-link:hover{
+  background-color: blue;
+}
+
+.contenedor-lista-elementos{
+  background-color: rgb(113, 87, 48);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-content:flex-start;
+}
+
+.menuItem-icono {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
